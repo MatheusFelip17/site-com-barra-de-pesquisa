@@ -58,3 +58,11 @@ body {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
+/* mapa das fases */
+#mapa {
+    margin: 0;
+    padding: 0;
+    width: 1535px;
+    height: 652px;
+    
+}
