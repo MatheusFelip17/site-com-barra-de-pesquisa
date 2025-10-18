@@ -11,6 +11,13 @@ body {
 .aba_superior_de_buscas {
     background-color: #0f0f0f;
     height: 100px;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111; 
+    z-index: 1; 
 }
 
 /* estilo geral dos links */
@@ -57,4 +64,31 @@ body {
 .navegaçao:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
+}
+.paragrafos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: white;
+    width: 800px;
+    margin-bottom: 200px;
+}
+.conteudo {
+    position: relative;
+    top: 80px;
+}
+#cores{
+    position: relative;
+    left: 720px;
+}
+#display{
+    position: relative;
+    left: 720px;
+}
+#transiçoes{
+    position: relative;
+    left: 720px;
+}
+#organizando{
+    position: relative;
+    left: 720px;
 }
