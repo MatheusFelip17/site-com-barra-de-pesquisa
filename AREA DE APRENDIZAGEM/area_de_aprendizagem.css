@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: linear-gradient(to right, blue, green); 
+    overflow: hidden;
 }
 
 /* área de navegação da página */
@@ -11,6 +12,7 @@ body {
 .aba_superior_de_buscas {
     background-color: #0f0f0f;
     height: 100px;
+    
 }
 
 /* estilo geral dos links */
@@ -58,11 +60,36 @@ body {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
+/* efeito nos botoes css e html */
+.botoes:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
 /* mapa das fases */
 #mapa {
     margin: 0;
     padding: 0;
     width: 1535px;
-    height: 652px;
-    
+    height: 652px;   
+}
+/* botao que leva pro html */
+#html {
+    position: relative;
+    bottom: 568px;
+    left: 53px;
+    width: 110px;
+    height: 50px;
+    background-image: linear-gradient(to left, rgba(235, 141, 54, 0.809), rgba(190, 153, 5, 0.8));
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* botao que leva pro css */
+#css {
+    position: relative;
+    bottom: 318px;
+    left: 708px;
+    width: 111px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(0, 255, 68),green );
+    font-family: Arial, Helvetica, sans-serif;
 }
