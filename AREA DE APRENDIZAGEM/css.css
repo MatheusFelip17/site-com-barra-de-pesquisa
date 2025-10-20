@@ -113,6 +113,5 @@ iframe {
 .lado_esquerdo {
     position: relative;
     bottom: 380px;
+    left: 8px;
 }
-
-
