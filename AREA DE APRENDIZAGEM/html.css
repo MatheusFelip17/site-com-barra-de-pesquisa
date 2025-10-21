@@ -104,16 +104,122 @@ body {
     height: 350px;
 }
 
-#introhtml p{
+#p1{
     color: #FFFFFF;
     font-size: 30px;
     margin-right: 900px;
     margin-left: 60px;
-    height: 500px;
+    width: 700px;
+    position: relative;
+    top: 25px;
+    float: left;
 }
 
 #introhtml iframe{
     margin-left: 800px;
-    position: relative;
     bottom: 520px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    bottom: 280px;
+    right: 40px;
+
+
+}
+
+#divhtml{
+    background-color:  linear-gradient(to right, blue, green);;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 120px;
+    width: 1500px;
+    border: 1px #111;
+    height: 350px;
+    position: relative;
+    bottom: 100px;
+}
+
+#div{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-left: 390px;
+    right: 30px;
+    top: 5px;
+    width: 700px;
+    position: relative;
+    float: right;
+    bottom: 60px;
+    
+}
+
+#videodiv{
+    bottom: 520px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    bottom: 290px;
+    left: 50px;
+}
+
+#navhtml{
+    background-color:  linear-gradient(to right, blue, green);;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 120px;
+    width: 1500px;
+    border: 1px #111;
+    height: 350px;
+}
+
+#nav{
+    color: #FFFFFF;
+    font-size: 40px;
+    left: -490px;
+    width: 700px;
+    position: relative;
+    float: left;
+}
+
+#videonav{
+    bottom: 260px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    left: -50px;
+}
+
+#h1html{
+    background-color: #0f0f0f;
+    /* background-color:  linear-gradient(to right, blue, green);; */
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 120px;
+    width: 1500px;
+    border: 1px #111;
+    height: 350px;
+}
+
+#h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-left: 390px;
+    right: 30px;
+    top: 5px;
+    width: 700px;
+    position: relative;
+    float: right;
+    bottom: 60px;
+}
+
+#videoh1{
+    bottom: 520px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    bottom: 290px;
+    left: 50px;
 }
