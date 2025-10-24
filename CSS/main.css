@@ -2,6 +2,11 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: linear-gradient(to right, blue, green); 
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 /* área de navegação da página */
