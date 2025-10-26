@@ -62,3 +62,23 @@ body {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
+
+/* texto principal */
+
+.texto_cima {
+    color: white;
+    font-family: 'press start 2p', cursive;
+    font-size: xx-large;
+    position: absolute;
+    left: 90px;
+    top: 280px;
+}
+
+.sub_texto {
+    color: white;
+    font-family: 'press start 2p', cursive;
+    font-size: smaller;
+    position: absolute;
+    left: 340px;
+    top: 330px;
+}
